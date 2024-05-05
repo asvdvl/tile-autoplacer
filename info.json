@@ -6,7 +6,7 @@
     "version": "0.0.0",
     "dependencies": ["base >= 1.1.0"],
     "description": "",
-    "homepage": "https://github.com/asvdvl/factorio-mod-template",
+    "homepage": "https://github.com/asvdvl/tile-autoplacer",
     "package":{
         "ignore":[
         ]
