@@ -9,9 +9,18 @@ local icon = {
 }
 
 data:extend({{
-    type = "shortcut",
-    name = "toggle-tile-autoplacer",
-    icon = icon,
-    action = "lua",
-    toggleable = true,
-}})
+        type = "shortcut",
+        name = "toggle-tile-autoplacer-shortcut",
+        icon = icon,
+        action = "lua",
+        toggleable = true,
+        localised_name={"custom-input.toggle-tile-autoplacer"}
+    },
+    {
+        type = "custom-input",
+        name = "toggle-tile-autoplacer-custom-input",
+        key_sequence = "CONTROL + ALT + SPACE",
+        localised_name={"custom-input.toggle-tile-autoplacer"},
+        action = "lua",
+    }
+})
