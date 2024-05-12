@@ -28,7 +28,7 @@ end
 
 local function on_player_changed_position_logic(event)
     local player = game.get_player(event.player_index)
-    if player.is_shortcut_toggled(shortcut_name) then
+    if player.character and player.is_shortcut_toggled(shortcut_name) then
         --checks that the player is not standing on a tile with which he can interact(mine/place)
         local dont_allow_to_build_tile = player.surface.get_tile(player.position.x, player.position.y).prototype.mineable_properties.minable and get_setting_value("dont-build-if-on-tile", player)
         local hand_not_empty = player.cursor_stack.valid_for_read

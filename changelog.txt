@@ -1,4 +1,18 @@
 ---------------------------------------------------------------------------------------------------
+Version: 1.0.0
+Date: 2024-05-12
+  Minor Features:
+    - setting to disable radius limitation
+    - radius setting
+    - setting does not allow building on tiles
+    - setting up automatic taking of tiles into the cursor
+    - setting a filter for a specific tile
+    - function operation switch
+    - try/catch to prevent errors
+  Translation:
+    - Russian
+    - English
+---------------------------------------------------------------------------------------------------
 Version: 0.0.0
 Date: 2024-05-05
   Info:
