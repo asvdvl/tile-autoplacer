@@ -1,5 +1,7 @@
 # tile-autopacer - автоматическое размещение тайлов
 
+мод для factorio который автоматически ставит плитки при ходьбе
+
 [en desctiption](https://github.com/asvdvl/tile-autopacer/blob/master/README.md)
 [mod showcase](https://youtu.be/DG2FdHhiS9w)
 

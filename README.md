@@ -1,4 +1,6 @@
-# factorio-mod-template - template for my mods
+# tile-autopacer - automatic tile placement
+
+mod for factorio that automatically places tiles on the floor when you walk 
 
 [ru desctiption](https://github.com/asvdvl/tile-autopacer/blob/master/README.ru.md)
 [mod showcase](https://youtu.be/DG2FdHhiS9w)
